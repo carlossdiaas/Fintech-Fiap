@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylestyle.css">
+</head>
+<body>
+    <header>
+        <nav id="menu" class="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
+        <img src="img/pilha-de-moedas.png" alt="" style="width: 75px; margin-bottom: 20px; margin-left: 15px;" class="d-none d-lg-block">
+            <div class="container-fluid">
+                <h1 class="navbar-title" href="#">Projeto Fintech Fiap</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active link" href="#">DASHBOARD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" href="#">DESPESAS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" href="#">RENDA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" href="#">PERFIL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" href="#">CARTÕES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link" href="#">RELATÓRIOS</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container text-center">
+                <div  class="row principal">
+                    <div id="secao-total" class="col parte parte-total">
+                        <div id="bola-total">
+                            <h2 class="titulo-total">Valor Total</h2>
+                            <h3 id="total">13.355,32</h3>
+                            <button id="btn">ADICIONAR </button>
+                        </div>
+                        
+                    </div>
+                    <div id="historico-gasto" class="col parte">
+                        <h2 class="titulo-gasto">Histórico de Gastos</h2>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/bicicleta.png" alt="">
+                            </div>
+                            <div class="col descricao">
+                                Lazer na praia
+                            </div>
+                            <div class="col-3 valor red">
+                                R$123.8
+                            </div>
+                        </div>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/bicicleta.png" alt="">
+                            </div>
+                            <div class="col descricao">
+                                Volta de bike
+                            </div>
+                            <div class="col-3 valor red">
+                                R$85.6
+                            </div>
+                        </div>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/pago (1) copy 2.png" alt="" width="60px">
+                            </div>
+                            <div class="col descricao">
+                                Parcela carro
+                            </div>
+                            <div class="col-3 valor red">
+                                R$552.5
+                            </div>
+                        </div>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/controlador.png" alt="">
+                            </div>
+                            <div class="col descricao">
+                                Ps5
+                            </div>
+                            <div class="col-3 valor red">
+                                R$322.2
+                            </div>
+                        </div>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/pago (1) copy 2.png" alt="" width="60px">
+                            </div>
+                            <div class="col descricao">
+                                Energia
+                            </div>
+                            <div class="col-3 valor red">
+                                R$236.3
+                            </div>
+                        </div>
+                    </div>
+                    <div id="historico-renda" class="col parte">
+                        <h2 class="titulo-gasto">Histórico de Renda</h2>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/pago (1) copy 2.png" alt="" width="60px">
+                            </div>
+                            <div class="col descricao">
+                                Sálario
+                            </div>
+                            <div class="col-3 valor green">
+                                R$3554.2
+                            </div>
+                        </div>
+                        <div class="gasto row text-center">
+                            <div class="col-2 img-historico">
+                                <img src="img/controlador.png" alt="" width="60px">
+                            </div>
+                            <div class="col descricao">
+                                Extra aula de game
+                            </div>
+                            <div class="col-3 valor green">
+                                R$32.3
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
